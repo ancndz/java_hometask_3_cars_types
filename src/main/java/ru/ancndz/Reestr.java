@@ -3,7 +3,6 @@ package ru.ancndz;
 import ru.ancndz.transport.Vehicle;
 import ru.ancndz.transport.auto.Car;
 import ru.ancndz.transport.mobile.Skate;
-import ru.ancndz.transport.social.Bus;
 import ru.ancndz.transport.social.SocialInterface;
 import ru.ancndz.transport.social.Taxi;
 

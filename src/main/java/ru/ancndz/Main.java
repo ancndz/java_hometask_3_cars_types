@@ -54,9 +54,9 @@ public class Main {
                 vehicleReestr.getMaxPassengersCount());
 
         //регистрция такси
-        //vehicleReestr.registrationProcedureTaxi();
+        vehicleReestr.registrationProcedureTaxi();
 
         //вывод всех такси
-        //vehicleReestr.printActualInfoTaxi();
+        vehicleReestr.printActualInfoTaxi();
     }
 }
