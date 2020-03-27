@@ -3,7 +3,6 @@ package ru.ancndz.transport.auto;
 import ru.ancndz.transport.Vehicle;
 
 public class Car extends Vehicle {
-
     private double horsePowers;
     private String color;
 

@@ -22,6 +22,7 @@ public class Skate extends Vehicle {
                 "\nUsual District: " + this.usualDistrict;
     }
 
+
     public String getUsualDistrict() {
         return usualDistrict;
     }

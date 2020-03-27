@@ -3,7 +3,6 @@ package ru.ancndz.transport.auto;
 import ru.ancndz.transport.Vehicle;
 
 public class Wagon extends Vehicle {
-
     private double maxCapacityKG;
     private double height;
     private boolean isTrailer;
