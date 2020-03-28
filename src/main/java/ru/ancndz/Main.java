@@ -18,7 +18,7 @@ public class Main {
         Car car1 = new Car(5, false, "к501ух", 2017, 2.8, "серебро");
         vehicleReestr.addVehicle(car1);
 
-        Car car2 = new Car(5, false, "к501ух", 2000, 2.8, "серебро");
+        Car car2 = new Car(5, false, "ю764зт", 2000, 2.8, "черный");
         vehicleReestr.addVehicle(car2);
 
         Bus bus1 = new Bus(8, true, "ш916ом", 1999, 2000, 2.25,
@@ -26,11 +26,11 @@ public class Main {
         vehicleReestr.addVehicle(bus1);
 
 
-        Skate skater = new Skate(0, false, "559мс", 2019, "северный", "черный");
-        Skate skater1 = new Skate(0, false, "323мс", 2018, "южный", "черный");
-        Skate skater2 = new Skate(0, false, "999мс", 2018, "южный", "серый");
-        Skate skater3 = new Skate(0, false, "122мс", 2016, "восточный", "красный");
-        Skate skater4 = new Skate(0, false, "036мс", 2015, "северный", "черный");
+        Skate skater = new Skate("559мс", 2019, "северный", "черный");
+        Skate skater1 = new Skate("323мс", 2018, "южный", "черный");
+        Skate skater2 = new Skate("999мс", 2018, "южный", "серый");
+        Skate skater3 = new Skate("122мс", 2016, "восточный", "красный");
+        Skate skater4 = new Skate("036мс", 2015, "северный", "черный");
 
         vehicleReestr.addVehicle(skater);
         vehicleReestr.addVehicle(skater1);

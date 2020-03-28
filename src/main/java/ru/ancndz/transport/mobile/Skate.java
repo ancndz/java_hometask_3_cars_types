@@ -6,8 +6,8 @@ public class Skate extends Vehicle {
     private String usualDistrict;
     private String color;
 
-    public Skate(int doorNum, boolean isGasEngine, String serialID, int year, String usualDistrict, String color) {
-        super(doorNum, isGasEngine, serialID, year);
+    public Skate(String serialID, int year, String usualDistrict, String color) {
+        super(0, false, serialID, year);
         this.usualDistrict = usualDistrict;
         this.color = color;
     }

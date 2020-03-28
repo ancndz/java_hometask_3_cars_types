@@ -7,6 +7,7 @@ public class Bicycle extends Vehicle {
     private String color;
 
     public Bicycle(String serialID, int year, String model, String color) {
+        //нет нужды добавлять в конструктор количество дверей и тип двигателя
         super(0, false, serialID, year);
         this.model = model;
         this.color = color;
